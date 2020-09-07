@@ -7,3 +7,6 @@ I am unclear on the exact changes I fundamentally made to the code, but was fina
 This allowed me to see the sporadic increases of flow at some points.
 I did not immediately see a pattern for when they occur, so I more or less stuck with my original method of staying
 around 220 as an average and then introduced 2 or 3 'spikes' in the data.
+
+# Grade
+3/3 - Nice job working around the problem. We will discuss the path issue you had in class this week.  Next time also try to add some formatting  to your markdown file. 
