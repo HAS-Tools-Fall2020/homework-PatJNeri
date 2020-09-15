@@ -3,6 +3,13 @@ Patrick Neri; 9/13/2020 Assignment #3
 # Homework #3
 *by Patrick Neri*
 
+---------
+# Grade
+
+2/3 - Really great job on the analysis and the forecast. I subtracted 1 point because you didn't answer the four questions in the assignment. Next time just make sure you include your answers to those too. 
+
+---
+
 ### Approach
 In this weeks homework, we were allowed to introduce base levels of python coding into
 our method. When looking at the original code that we were provided, I noticed a few areas where my approach was flawed.
