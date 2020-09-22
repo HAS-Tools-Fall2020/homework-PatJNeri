@@ -3,6 +3,12 @@ Patrick Neri; 9/20/2020 Assignment #4
 # Homework #4
 *by Patrick Neri*
 
+___
+### Grade
+3/3 - nice job, we will be getting to plotting soon don't worry. Also you can use an atom plugin to add images to your markdown. instructions are included in next weeks assignment. 
+___
+
+
 ## In this week
 ### We utilized histograms to see more frequent values and trends.
 This showed more visibly what I saw previously, and allowed the picture to display what my eyeballs and numbers could not.
