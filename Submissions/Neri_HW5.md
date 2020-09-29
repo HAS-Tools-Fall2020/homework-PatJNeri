@@ -3,6 +3,11 @@ Patrick Neri; 9/27/2020 Assignment #5
 # Homework #5
 *by Patrick Neri*
 
+____
+## Grade
+3/3 - Great job. Indexing on Pandas dataframes is very tricky at first and it will definitley get easier with practice. Check out my solution for #6 when I post it. 
+___
+
 As we didn't have very much new information, I took some ideas of the previous weeks concepts. The major difficulty that I ran into was finding a quick way to summarize and call data, which I know comes with practice. What I ended up doing, since I didn't change my method very much, was to call last years flow values at the start of every week and average it with my previous predictions.
 
 ## Things I should do better
