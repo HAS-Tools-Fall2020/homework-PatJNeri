@@ -3,6 +3,11 @@ Patrick Neri; 10/4/2020 Assignment #6
 # Homework #6
 *by Patrick Neri*
 
+___
+## Grade
+3/3 - I really like your histogram approach and thinking about the quantiles. Nice work. 
+__
+
 One thing I needed to check right away was how representative a weekly sampling of data is compared to the overall flow.
 I thought of 2 ways to assess this (without getting more complicated!). The first was visually, by comparing a histogram
 of the overall flow data with the weekly sampling. Although this is good, it's hard to truly get a sense of the comparison
