@@ -3,7 +3,7 @@
 import os
 import numpy as np
 import pandas as pd
-
+import matplotlib.pyplot as plt
 # %%
 data = np.ones((7,3))
 data_frame = pd.DataFrame(data, 
