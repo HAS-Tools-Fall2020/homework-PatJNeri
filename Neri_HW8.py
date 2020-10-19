@@ -1,6 +1,6 @@
 #  Patrick Neri Prediction Code for Week #8
 #  Greetings and good luck! I will include comments to help decode the madness
-
+# ReadMe file can be found in the core_review_final folder.
 # %%
 # Import the modules we will use
 import os
@@ -63,7 +63,7 @@ def Week_pred2(week, shift1, shift2, shift3):
 # %%
 # Here it is, the hardest part of making the program work. In the readme file I
 # have given directions to hopefully make it work
-filename = 'streamflow_week7.txt'
+filename = 'streamflow_week1.txt'
 filepath = os.path.join('data', filename)
 print(os.getcwd())
 print(filepath)
@@ -241,9 +241,8 @@ r_sq = model2.score(x, y)
 print('coefficient of determination:', np.round(r_sq, 2))
 print('intercept:', np.round(model2.intercept_, 2))
 print('slope:', np.round(model2.coef_, 4))
-q_pred_train2 = pd.DataFrame(model2.predict(train2[['flow_tm1',
-                                                    'flow_tm2', 'flow_tm3']]),
-                             train2['datetime'])
+q_pred_train2 = model2.predict(train2[['flow_tm1',
+                                       'flow_tm2', 'flow_tm3']])
 fig, ax = plt.subplots()
 ax.scatter(train2['flow_tm1'], train2['flow'], marker='o', s=3,
            color='r', label='obs')
@@ -256,10 +255,20 @@ ax.legend()
 # is off by a week maybe? Need to look at closer...
 data_2020 = data[data['year'] == 2020]
 flow_weekly_2020 = flow_weekly[flow_weekly['year'] == 2020]
+q_pred_train2_graph = pd.DataFrame(model2.predict(train2[['flow_tm1',
+                                                          'flow_tm2',
+                                                          'flow_tm3']]),
+                                   train2['datetime'])
 fig, ax = plt.subplots(figsize=(20, 10))
 ax.plot(data_2020.datetime, data_2020['flow'], color='grey')
 ax.plot(flow_weekly_2020.index, flow_weekly_2020['flow'], '-b')
-ax.plot(q_pred_train2, 'r')
+ax.plot(q_pred_train2_graph, 'r')
 ax.set(yscale='log')
 ax.legend()
+# %%
+# adjust based on 3 of weeks (make sure to check the streamflow doc used)
+forecast = Week_pred2(16, flow_weekly.iloc[-1][['flow']],
+                      flow_weekly.iloc[-2][['flow']],
+                      flow_weekly.iloc[-3][['flow']])
+print(forecast)
 # %%

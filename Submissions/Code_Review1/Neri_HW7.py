@@ -39,7 +39,7 @@ def Week_pred(week, shift1, shift2, shift3):
 # %%
 # Here it is, the hardest part of making the program work. In the readme file I
 # have given directions to hopefully make it work
-filename = 'streamflow_week2.txt'
+filename = 'streamflow_week7.txt'
 filepath = os.path.join(filename)
 print(os.getcwd())
 print(filepath)
