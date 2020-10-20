@@ -2,6 +2,17 @@ Patrick Neri HW8 Code Review
 
 ## Homework #8
 
+#### Grade 
+ - 6/6  Great  job!
+ - Readability: 3
+ - Style: 3 
+ - Code: 2
+
+ - Nice work on your functions and documentation! Very easy to follow. 
+ - I made some suggestions for how you can shorten your script. 
+ 
+
+
 #### Greetings!!
 This is a file to help navigate my program.
 

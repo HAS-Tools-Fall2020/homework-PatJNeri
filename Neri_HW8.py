@@ -12,7 +12,9 @@ import datetime
 
 # %%
 
-
+# LC - really nice documentation 
+# These functions are very similar - you could potentially combine into one 
+# where the week outlook is one of the input variables. 
 def Week_pred(week, shift1, shift2, shift3):
     """
     This utilizes a Linear Model with 3 consecutive week averages as an input.
@@ -126,6 +128,7 @@ flow_weekly['flow_tm2'] = flow_weekly['flow'].shift(2)
 flow_weekly['flow_tm3'] = flow_weekly['flow'].shift(3)
 
 # This period is from start of 2010 to start of 2015
+# LC - you could set these inputs numbers as variables and also link them to dates. 
 train = flow_weekly[1096:1357][['flow', 'flow_tm1', 'flow_tm2', 'flow_tm3']]
 test = flow_weekly[1357:][['flow', 'flow_tm1', 'flow_tm2', 'flow_tm3']]
 
@@ -199,6 +202,9 @@ print('Method of flow quantiles for month ', '8-12', ':', flow_quants_mnth_b)
 print('For plots, Green is flow max above 75%, and Red is below 50%')
 fig = plt.figure(figsize=(30, 10))
 fig.subplots_adjust(hspace=0.4, wspace=0.4)
+
+# LC - the lines of code that are repeated exactly in your if else statements
+# Can be moved outside this logic so you don't have to repeat it
 for i in range(1, 31):
     curr_yr = (i + 1990)
     flow_weekly_mnth_i = flow_weekly_mnth_r[flow_weekly_mnth_r['year'] ==
