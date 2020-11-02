@@ -3,6 +3,9 @@ Patrick Neri; 10/26/2020 Assignment #9
 # Homework #9
 *by Patrick Neri*
 
+### Grade
+3/3 - Yes time is always the killer and is unfortunately a really big unknown when you are learning new things like this. Still great job though! Sorry I didn't notice the daymet data was stopping early.  
+
 ### Summary
 what went wrong. Well, I keep running into the issue of starting too late for my ambitions, then not being able to do the code they way I would want. This week really showed
 me that if I want to produce the *impressive code* that I want to try and make, I will need to put in more time. I do cut myself some slack however, since API's is a very
