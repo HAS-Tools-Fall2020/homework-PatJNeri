@@ -1,6 +1,9 @@
 # Homework #12
 *by Patrick Neri*
 
+### Grade
+2/3 - Points for effort! Sorry to hear you had such struggles this week. This assignment is a tricky one. Note that depending on the resolution of your data its possible that you did only get one grid cell of data even given the range that you specified. You should be able to see this in the dimensions. We will spend some more time on this in class together on Thursday though. 
+
 ### Major Difficulties!!
 I found this week to be extremely difficult, which is probably not very surprising considering
 the amount of information this week. I began working on the project late Thursday, reading thru
@@ -30,7 +33,7 @@ and a broken raster map that I don't think I am doing right.
 so maybe my data is from China? ... I just don't know ... send help
 
 #### The Plan
-So my plan is to continue working on this assignment and try and get this map working by the end of Monday, even if my slide will not be in on time, so that I will at least have something 
+So my plan is to continue working on this assignment and try and get this map working by the end of Monday, even if my slide will not be in on time, so that I will at least have something
 for class on Tuesday. Step 1 is try and redownload the data to see if I can find differences.
 Step 2 is reread (again) some of the assigned exercises and see if I can find what I was doing wrong.
 Step 3 is to get something working at least so I can show, and if all else fails, learning
