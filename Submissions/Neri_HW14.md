@@ -1,6 +1,9 @@
 # Homework #14
 *by Patrick Neri*
 
+## Grade
+3/3 - nice work.
+
 ### Attempting to understand other humans: A Journey
 
 So in this week we were tasked to find a paper with an open source code and try and replicate
